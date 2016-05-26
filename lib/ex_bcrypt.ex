@@ -78,7 +78,7 @@ defmodule ExBcrypt do
   The time bcrypt takes to hash the string 'password'
   in relation with a given work factor.
   Returns a tuple in the form of:
-  {:ok, work_factor, elapsed_time_in_ms}
+  `{:ok, work_factor, elapsed_time_in_ms}`
 
   The work factor defaults to 12 if no factor is given.
   The work factor should be between 4 and 31.
