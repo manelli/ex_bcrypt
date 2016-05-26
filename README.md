@@ -2,6 +2,8 @@
 
 **Elixir wrapper for the OpenBSD bcrypt password hashing algorithm.**
 
+[![Build Status](https://travis-ci.org/manelli/ex_bcrypt.svg?branch=master)](https://travis-ci.org/manelli/ex_bcrypt)
+
 ## Installation
 
   1. Add ex_bcrypt to your list of dependencies in `mix.exs`:
