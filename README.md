@@ -8,15 +8,19 @@
 
   1. Add ex_bcrypt to your list of dependencies in `mix.exs`:
 
-        def deps do
-          [{:ex_bcrypt, "~> 0.0.1"}]
-        end
+```elixir
+  def deps do
+    [{:ex_bcrypt, "~> 0.0.1"}]
+  end
+```
 
   2. Ensure ex_bcrypt is started before your application:
 
-        def application do
-          [applications: [:ex_bcrypt]]
-        end
+```elixir
+  def application do
+    [applications: [:ex_bcrypt]]
+  end
+```
 
 ## Documentation
 
